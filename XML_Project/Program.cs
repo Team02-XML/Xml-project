@@ -10,7 +10,6 @@ namespace XML_Project
         static XmlDocument xmlDoc = new XmlDocument();
         static XmlElement root = xmlDoc.CreateElement("html");
         static List<string> studentNames = new List<string> { "Norah", "Abdulrahman", "Mutaz", "Adel", "Sara" };
-
         public static void CreateXMLFile()
         {
             xmlDoc.AppendChild(root);
@@ -26,10 +25,11 @@ namespace XML_Project
         }
         static void CreateStudent()
         {
+            XmlElement students = xmlDoc.CreateElement("students");
+            root.AppendChild(students);
+
             foreach (var name in studentNames)
             {
-                XmlElement students = xmlDoc.CreateElement("students");
-                root.AppendChild(students);
                 XmlElement student = xmlDoc.CreateElement("student");
                 XmlElement studentName = xmlDoc.CreateElement("name");
                 XmlText stNameText = xmlDoc.CreateTextNode(name);
@@ -51,16 +51,13 @@ namespace XML_Project
             }
 
         }
-
         static void Main(string[] args)
         {
-            CreateXMLFile();
             Thread writerThread = new Thread(CreateXMLFile);
             writerThread.Start();
             writerThread.Join();
             Thread readThread = new Thread(ReadXMLFile);
             readThread.Start();
-            ReadXMLFile();
         }
        
     }
