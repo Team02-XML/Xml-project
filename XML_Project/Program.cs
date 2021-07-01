@@ -13,6 +13,8 @@ namespace XML_Project
             Thread writerThread = new Thread(CreateXMLFile);
             writerThread.Start();
             writerThread.Join();
+            Thread readThread = new Thread(ReadXMLFile);
+            readThread.Start();
 
             ReadXMLFile();
 
@@ -53,14 +55,14 @@ namespace XML_Project
 
 
 
-            xmlDoc.Save(@"C:\Users\");
+            xmlDoc.Save(@"D:\Tuwaiq\XmlProj");
             Console.WriteLine(xmlDoc.InnerXml);
         }
 
         static void ReadXMLFile()
         {
             XmlDocument xmldoc = new XmlDocument();
-            xmldoc.Load(@"C:\Users\");
+            xmldoc.Load(@"D:\Tuwaiq\XmlProj");
             foreach (XmlNode node in xmldoc.DocumentElement.ChildNodes)
             {
                 string element = node.Name;
