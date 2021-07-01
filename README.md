@@ -1,4 +1,4 @@
-# Project #5 Teame 02
+# Project #5 Team 02
 
 <h2>Brief about the project</h2>
 <p>The project idea is to create a C# program that enable us to Write and Read from XML file
