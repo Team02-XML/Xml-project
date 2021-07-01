@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading;
 using System.Xml;
 
 namespace XML_Project
@@ -9,6 +10,10 @@ namespace XML_Project
         static void Main(string[] args)
         {
             CreateXMLFile();
+            Thread writerThread = new Thread(CreateXMLFile);
+            writerThread.Start();
+            writerThread.Join();
+
             ReadXMLFile();
 
         }
@@ -48,14 +53,14 @@ namespace XML_Project
 
 
 
-            xmlDoc.Save(@"");
+            xmlDoc.Save(@"C:\Users\");
             Console.WriteLine(xmlDoc.InnerXml);
         }
 
         static void ReadXMLFile()
         {
             XmlDocument xmldoc = new XmlDocument();
-            xmldoc.Load(@"");
+            xmldoc.Load(@"C:\Users\");
             foreach (XmlNode node in xmldoc.DocumentElement.ChildNodes)
             {
                 string element = node.Name;

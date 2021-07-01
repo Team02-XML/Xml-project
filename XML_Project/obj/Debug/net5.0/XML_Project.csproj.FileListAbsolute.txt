@@ -14,3 +14,19 @@ C:\Users\F-LOW\OneDrive\Desktop\Project Bootcamp\Projects\Xml-project\XML_Projec
 C:\Users\F-LOW\OneDrive\Desktop\Project Bootcamp\Projects\Xml-project\XML_Project\obj\Debug\net5.0\ref\XML_Project.dll
 C:\Users\F-LOW\OneDrive\Desktop\Project Bootcamp\Projects\Xml-project\XML_Project\obj\Debug\net5.0\XML_Project.pdb
 C:\Users\F-LOW\OneDrive\Desktop\Project Bootcamp\Projects\Xml-project\XML_Project\obj\Debug\net5.0\XML_Project.genruntimeconfig.cache
+C:\Users\rooke\Desktop\Xml-project\XML_Project\bin\Debug\net5.0\XML_Project.exe
+C:\Users\rooke\Desktop\Xml-project\XML_Project\bin\Debug\net5.0\XML_Project.deps.json
+C:\Users\rooke\Desktop\Xml-project\XML_Project\bin\Debug\net5.0\XML_Project.runtimeconfig.json
+C:\Users\rooke\Desktop\Xml-project\XML_Project\bin\Debug\net5.0\XML_Project.runtimeconfig.dev.json
+C:\Users\rooke\Desktop\Xml-project\XML_Project\bin\Debug\net5.0\XML_Project.dll
+C:\Users\rooke\Desktop\Xml-project\XML_Project\bin\Debug\net5.0\ref\XML_Project.dll
+C:\Users\rooke\Desktop\Xml-project\XML_Project\bin\Debug\net5.0\XML_Project.pdb
+C:\Users\rooke\Desktop\Xml-project\XML_Project\obj\Debug\net5.0\XML_Project.csproj.AssemblyReference.cache
+C:\Users\rooke\Desktop\Xml-project\XML_Project\obj\Debug\net5.0\XML_Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rooke\Desktop\Xml-project\XML_Project\obj\Debug\net5.0\XML_Project.AssemblyInfoInputs.cache
+C:\Users\rooke\Desktop\Xml-project\XML_Project\obj\Debug\net5.0\XML_Project.AssemblyInfo.cs
+C:\Users\rooke\Desktop\Xml-project\XML_Project\obj\Debug\net5.0\XML_Project.csproj.CoreCompileInputs.cache
+C:\Users\rooke\Desktop\Xml-project\XML_Project\obj\Debug\net5.0\XML_Project.dll
+C:\Users\rooke\Desktop\Xml-project\XML_Project\obj\Debug\net5.0\ref\XML_Project.dll
+C:\Users\rooke\Desktop\Xml-project\XML_Project\obj\Debug\net5.0\XML_Project.pdb
+C:\Users\rooke\Desktop\Xml-project\XML_Project\obj\Debug\net5.0\XML_Project.genruntimeconfig.cache
