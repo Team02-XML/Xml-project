@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <h1>TUWAIQ STUDENTS</h1>
+  </head>
+  <students>
+    <student>
+      <name>Norah</name>
+    </student>
+    <student>
+      <name>Abdulrahman</name>
+    </student>
+    <student>
+      <name>Mutaz</name>
+    </student>
+    <student>
+      <name>Adel</name>
+    </student>
+    <student>
+      <name>Sara</name>
+    </student>
+  </students>
+</html>

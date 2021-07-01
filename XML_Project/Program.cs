@@ -7,21 +7,9 @@ namespace XML_Project
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            CreateXMLFile();
-            Thread writerThread = new Thread(CreateXMLFile);
-            writerThread.Start();
-            writerThread.Join();
-            Thread readThread = new Thread(ReadXMLFile);
-            readThread.Start();
-
-            ReadXMLFile();
-
-        }
         public static void CreateXMLFile()
         {
-            List<string> studentNames = new List<string>{"Norah", "Abdulrahman", "Mutaz", "Adel", "Sara" };
+            List<string> studentNames = new List<string> { "Norah", "Abdulrahman", "Mutaz", "Adel", "Sara" };
             XmlDocument xmlDoc = new XmlDocument();
             XmlElement root = xmlDoc.CreateElement("html");
             xmlDoc.AppendChild(root);
@@ -49,20 +37,15 @@ namespace XML_Project
                 students.AppendChild(student);
 
             }
-           
 
-          
-
-
-
-            xmlDoc.Save(@"D:\Tuwaiq\XmlProj");
+            xmlDoc.Save(@"D:\\XMLProject.xml");
             Console.WriteLine(xmlDoc.InnerXml);
         }
 
         static void ReadXMLFile()
         {
             XmlDocument xmldoc = new XmlDocument();
-            xmldoc.Load(@"D:\Tuwaiq\XmlProj");
+            xmldoc.Load(@"D:\\XMLProject.xml");
             foreach (XmlNode node in xmldoc.DocumentElement.ChildNodes)
             {
                 string element = node.Name;
@@ -70,6 +53,19 @@ namespace XML_Project
                 string text = node.InnerText;
                 Console.WriteLine(text);
             }
+
+        }
+
+        static void Main(string[] args)
+        {
+            CreateXMLFile();
+            Thread writerThread = new Thread(CreateXMLFile);
+            writerThread.Start();
+            writerThread.Join();
+            Thread readThread = new Thread(ReadXMLFile);
+            readThread.Start();
+
+            ReadXMLFile();
 
         }
        

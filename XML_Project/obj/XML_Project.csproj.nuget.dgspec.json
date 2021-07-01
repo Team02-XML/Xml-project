@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Tuwaiq\\XmlProj\\Xml-project\\XML_Project\\XML_Project.csproj": {}
+    "C:\\Users\\Adel_Kalu\\Desktop\\XML\\XML_Project\\XML_Project.csproj": {}
   },
   "projects": {
-    "D:\\Tuwaiq\\XmlProj\\Xml-project\\XML_Project\\XML_Project.csproj": {
+    "C:\\Users\\Adel_Kalu\\Desktop\\XML\\XML_Project\\XML_Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tuwaiq\\XmlProj\\Xml-project\\XML_Project\\XML_Project.csproj",
+        "projectUniqueName": "C:\\Users\\Adel_Kalu\\Desktop\\XML\\XML_Project\\XML_Project.csproj",
         "projectName": "XML_Project",
-        "projectPath": "D:\\Tuwaiq\\XmlProj\\Xml-project\\XML_Project\\XML_Project.csproj",
-        "packagesPath": "C:\\Users\\Ammar\\.nuget\\packages\\",
-        "outputPath": "D:\\Tuwaiq\\XmlProj\\Xml-project\\XML_Project\\obj\\",
+        "projectPath": "C:\\Users\\Adel_Kalu\\Desktop\\XML\\XML_Project\\XML_Project.csproj",
+        "packagesPath": "C:\\Users\\Adel_Kalu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adel_Kalu\\Desktop\\XML\\XML_Project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ammar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Adel_Kalu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
