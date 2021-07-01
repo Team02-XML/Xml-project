@@ -29,4 +29,5 @@
   <li>Norah Almutairi</li>
   <li>Adel Kalu</li>
   </ul>
-
+  
+[![BCH compliance](https://bettercodehub.com/edge/badge/Team02-XML/Xml-project?branch=main)](https://bettercodehub.com/)

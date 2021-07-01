@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\F-LOW\\.nuget\\packages\\": {}
+    "C:\\Users\\Adel_Kalu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\F-LOW\\OneDrive\\Desktop\\Project Bootcamp\\Projects\\Xml-project\\XML_Project\\XML_Project.csproj",
+      "projectUniqueName": "C:\\Users\\Adel_Kalu\\source\\repos\\Xml-project\\XML_Project\\XML_Project.csproj",
       "projectName": "XML_Project",
-      "projectPath": "C:\\Users\\F-LOW\\OneDrive\\Desktop\\Project Bootcamp\\Projects\\Xml-project\\XML_Project\\XML_Project.csproj",
-      "packagesPath": "C:\\Users\\F-LOW\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\F-LOW\\OneDrive\\Desktop\\Project Bootcamp\\Projects\\Xml-project\\XML_Project\\obj\\",
+      "projectPath": "C:\\Users\\Adel_Kalu\\source\\repos\\Xml-project\\XML_Project\\XML_Project.csproj",
+      "packagesPath": "C:\\Users\\Adel_Kalu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Adel_Kalu\\source\\repos\\Xml-project\\XML_Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\F-LOW\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Adel_Kalu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

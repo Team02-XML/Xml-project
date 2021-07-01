@@ -8,7 +8,7 @@ namespace XML_Project
     class Program
     {
         static XmlDocument xmlDoc = new XmlDocument();
-        static XmlElement root = xmlDoc.CreateElement("html");
+        static XmlElement root = xmlDoc.CreateElement("xml");
         static List<string> studentNames = new List<string> { "Norah", "Abdulrahman", "Mutaz", "Adel", "Sara" };
         public static void CreateXMLFile()
         {
